@@ -1,0 +1,3 @@
+tests/demotest.class
+environment/RunEnvironment.class
+environment/EnvironmentManager.class

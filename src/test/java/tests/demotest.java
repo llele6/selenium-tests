@@ -25,7 +25,7 @@ public class demotest {
         EnvironmentManager.initWebDriver();
         driver = RunEnvironment.getWebDriver();
         driver.manage().window().maximize();
-        driver.get("https://www.adidas.de");
+        driver.get("https://www.adidas.co.uk");
         jse = (JavascriptExecutor)driver;
         hover = new Actions(driver);
     }

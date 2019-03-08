@@ -77,14 +77,13 @@ public class demotest {
         driver.findElement(By.xpath("//span[contains(text(),'Wähle deine Größe aus')]")).click();
         driver.findElement(By.xpath("//button[@title='40']")).click();
         driver.findElement(By.xpath("//button[@type='submit']")).click();
-        //driver.findElement(By.xpath("//a[@class='gl-cta gl-cta--primary gl-cta--full-width gl-vspacing-s']")).click();
         driver.findElement(By.xpath("//div[@class='gl-modal__main']//a[contains(@data-auto-id, 'view-bag-')]")).click();
         String amount = driver.findElement(By.xpath("//div[@class='col-4 title-wrapper']//span")).getText();
         Assert.assertTrue(amount.contains("1"));
     }
 
     @Test
-    public void lookingfor()  {
+    public void stanSmith()  {
         //Stan Smith
         WebElement kollektionen = driver.findElement(By.xpath("//a[contains(text(),'KOLLEKTIONEN')]"));
         hover.moveToElement(kollektionen).build().perform();
@@ -93,19 +92,13 @@ public class demotest {
         String URL = driver.getCurrentUrl();
         Assert.assertTrue(URL.contains("stan_smith"));
         System.out.println(URL);
-
-
     }
 
 
    @After
-   public void quitBrowser() {
-       try {
-           Thread.sleep(6000);
-       }
-       catch(InterruptedException e) {
-       }
-       //EnvironmentManager.shutDownDriver();
+   public void quitBrowser() throws InterruptedException {
+        sleep(6000);
+        EnvironmentManager.shutDownDriver();
 
    }
 }

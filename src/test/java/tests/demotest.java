@@ -56,10 +56,10 @@ public class demotest {
 
     @Test
     public void dropdownFrauen() {
-        //Header-menu -> Frauen -> Neu
-        WebElement frauen = driver.findElement(By.xpath("//a[@class='label'][contains(text(),'Frauen')]"));
+        //Header-menu -> Woman -> Neu
+        WebElement frauen = driver.findElement(By.xpath("//a[@class='label'][contains(text(),'Woman')]"));
         hover.moveToElement(frauen).build().perform();
-        driver.findElement(By.xpath("//a[@href='/frauen-neu'][contains(text(),'Neu eingetroffen')]")).click();
+        driver.findElement(By.xpath("//a[@href='/frauen-neu'][contains(text(),'New Arrivals')]")).click();
         driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
         String URL = driver.getCurrentUrl();
         Assert.assertTrue(URL.contains("frauen-neu"));

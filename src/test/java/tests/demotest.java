@@ -22,7 +22,6 @@ public class demotest {
 
     @Before
     public void startBrowser() {
-        //start Browser, call adidas, Driver, Javascript Executor
         EnvironmentManager.initWebDriver();
         driver = RunEnvironment.getWebDriver();
         driver.manage().window().maximize();
@@ -33,7 +32,6 @@ public class demotest {
 
     @Test
     public void searchProduct() throws InterruptedException {
-        //search for nmd
         WebElement searchbar = driver.findElement(By.name("q"));
         searchbar.sendKeys("NMD");
         searchbar.submit();
@@ -58,7 +56,7 @@ public class demotest {
 
     @Test
     public void dropdownFrauen() {
-        //Header -> woman -> new
+        //Header-menu -> Frauen -> Neu
         WebElement frauen = driver.findElement(By.xpath("//a[@class='label'][contains(text(),'Frauen')]"));
         hover.moveToElement(frauen).build().perform();
         driver.findElement(By.xpath("//a[@href='/frauen-neu'][contains(text(),'Neu eingetroffen')]")).click();
@@ -71,7 +69,7 @@ public class demotest {
 
     @Test
     public void inCart()  {
-        //Buy now -> first product -> in shopping cart
+        //Jetzt Kaufen -> first product -> in shopping cart
         driver.findElements(By.xpath("//a[contains(text(),'JETZT KAUFEN')]")).get(0).click();
         driver.findElements(By.xpath("//div[contains(@class, 'product-container___')]//img")).get(0).click();
         driver.findElement(By.className("gl-modal__close")).click();

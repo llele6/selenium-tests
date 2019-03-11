@@ -54,7 +54,11 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/tests/demotest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="245">
+<<<<<<< HEAD
               <caret line="62" column="91" selection-start-line="62" selection-start-column="91" selection-end-line="62" selection-end-column="91" />
+=======
+              <caret line="61" column="91" selection-start-line="61" selection-start-column="91" selection-end-line="61" selection-end-column="91" />
+>>>>>>> 543c08b325b1dee48a317b7f8aeb75496a05bd0f
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -304,7 +308,11 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4985694" weight="0.3266129" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.32795697" />
+=======
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" visible="true" weight="0.32795697" />
+>>>>>>> 543c08b325b1dee48a317b7f8aeb75496a05bd0f
       <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.36337626" side_tool="true" visible="true" weight="0.32258064" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.3855508" weight="0.32123655" />
@@ -352,7 +360,11 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/demotest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="245">
+<<<<<<< HEAD
           <caret line="62" column="91" selection-start-line="62" selection-start-column="91" selection-end-line="62" selection-end-column="91" />
+=======
+          <caret line="61" column="91" selection-start-line="61" selection-start-column="91" selection-end-line="61" selection-end-column="91" />
+>>>>>>> 543c08b325b1dee48a317b7f8aeb75496a05bd0f
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

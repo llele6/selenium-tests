@@ -2,11 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26af0f0b-fcd3-4809-abef-2db3f5960ddf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/demotest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/demotest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/tests/demotest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/tests/demotest.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list id="aa94c017-a8d1-4e40-8c5f-7661738837ff" name="Revert: First commit" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,25 +21,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/tests/demotest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/environment/RunEnvironment.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
+            <state relative-caret-position="180">
+              <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
               <folding>
-                <element signature="e#176#177#0" expanded="true" />
-                <element signature="e#208#209#0" expanded="true" />
-                <element signature="e#261#262#0" expanded="true" />
-                <element signature="e#313#314#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -41,8 +36,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/environment/EnvironmentManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state>
+              <caret selection-end-line="17" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -50,18 +45,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/tests/demotest.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/environment/RunEnvironment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-<<<<<<< HEAD
-              <caret line="62" column="91" selection-start-line="62" selection-start-column="91" selection-end-line="62" selection-end-column="91" />
-=======
-              <caret line="61" column="91" selection-start-line="61" selection-start-column="91" selection-end-line="61" selection-end-column="91" />
->>>>>>> 543c08b325b1dee48a317b7f8aeb75496a05bd0f
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret selection-end-line="15" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -81,9 +69,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/environment/RunEnvironment.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/environment/EnvironmentManager.java" />
         <option value="$PROJECT_DIR$/src/test/java/tests/demotest.java" />
       </list>
     </option>
@@ -110,7 +95,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -118,20 +102,50 @@
               <item name="selenium-tests" type="b2602c69:ProjectViewProjectNode" />
               <item name="selenium-tests" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="selenium-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="environment" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="selenium-tests" type="b2602c69:ProjectViewProjectNode" />
+              <item name="selenium-tests" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552288101919" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553170427688" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -145,71 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.demotest.searchProduct">
-    <configuration name="demotest.dropdownFrauen" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Junitwithselenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.demotest" />
-      <option name="METHOD_NAME" value="dropdownFrauen" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="demotest.inCart" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Junitwithselenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.demotest" />
-      <option name="METHOD_NAME" value="inCart" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="demotest.lookingfor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Junitwithselenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.demotest" />
-      <option name="METHOD_NAME" value="lookingfor" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="demotest.scrollforinfo" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Junitwithselenium" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tests" />
-      <option name="MAIN_CLASS_NAME" value="tests.demotest" />
-      <option name="METHOD_NAME" value="scrollforinfo" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="demotest.searchProduct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Junitwithselenium" />
       <extension name="coverage">
@@ -229,10 +179,6 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.demotest.searchProduct" />
-        <item itemvalue="JUnit.demotest.inCart" />
-        <item itemvalue="JUnit.demotest.lookingfor" />
-        <item itemvalue="JUnit.demotest.dropdownFrauen" />
-        <item itemvalue="JUnit.demotest.scrollforinfo" />
       </list>
     </recent_temporary>
   </component>
@@ -250,38 +196,38 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="demotest_inCart - 2019.03.07 at 10h 04m 42s.xml">
-      <configuration name="demotest.inCart" configurationId="JUnit" />
+    <history-entry file="demotest - 2019.03.14 at 12h 42m 23s.xml">
+      <configuration name="demotest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="demotest_inCart - 2019.03.07 at 10h 05m 52s.xml">
-      <configuration name="demotest.inCart" configurationId="JUnit" />
+    <history-entry file="demotest_searchProduct - 2019.03.14 at 13h 03m 39s.xml">
+      <configuration name="demotest.searchProduct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="demotest_inCart - 2019.03.07 at 10h 09m 08s.xml">
-      <configuration name="demotest.inCart" configurationId="JUnit" />
+    <history-entry file="demotest_searchProduct - 2019.03.14 at 13h 04m 29s.xml">
+      <configuration name="demotest.searchProduct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="demotest_inCart - 2019.03.07 at 10h 09m 58s.xml">
-      <configuration name="demotest.inCart" configurationId="JUnit" />
+    <history-entry file="demotest_searchProduct - 2019.03.14 at 13h 04m 41s.xml">
+      <configuration name="demotest.searchProduct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="demotest_inCart - 2019.03.07 at 10h 17m 54s.xml">
-      <configuration name="demotest.inCart" configurationId="JUnit" />
+    <history-entry file="demotest_searchProduct - 2019.03.14 at 13h 05m 16s.xml">
+      <configuration name="demotest.searchProduct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="demotest_lookingfor - 2019.03.07 at 10h 21m 04s.xml">
-      <configuration name="demotest.lookingfor" configurationId="JUnit" />
+    <history-entry file="demotest_searchProduct - 2019.03.14 at 13h 07m 23s.xml">
+      <configuration name="demotest.searchProduct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="demotest_inCart - 2019.03.07 at 10h 22m 09s.xml">
-      <configuration name="demotest.inCart" configurationId="JUnit" />
+    <history-entry file="demotest_searchProduct - 2019.03.14 at 13h 09m 36s.xml">
+      <configuration name="demotest.searchProduct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="demotest_inCart - 2019.03.07 at 10h 31m 37s.xml">
-      <configuration name="demotest.inCart" configurationId="JUnit" />
+    <history-entry file="demotest_searchProduct - 2019.03.14 at 13h 17m 00s.xml">
+      <configuration name="demotest.searchProduct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="demotest_inCart - 2019.03.07 at 10h 41m 19s.xml">
-      <configuration name="demotest.inCart" configurationId="JUnit" />
+    <history-entry file="demotest_searchProduct - 2019.03.21 at 11h 03m 22s.xml">
+      <configuration name="demotest.searchProduct" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="demotest_searchProduct - 2019.03.11 at 06h 11m 26s.xml">
+    <history-entry file="demotest_searchProduct - 2019.03.21 at 13h 13m 17s.xml">
       <configuration name="demotest.searchProduct" configurationId="JUnit" />
     </history-entry>
   </component>
-  <component name="TodoView" selected-index="1">
+  <component name="TodoView">
     <todo-panel id="selected-file">
       <is-autoscroll-to-source value="true" />
     </todo-panel>
@@ -303,18 +249,14 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.63662374" visible="true" weight="0.32258064" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.84263235" visible="true" weight="0.32258064" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49785408" weight="0.39919356" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4985694" weight="0.3266129" />
-<<<<<<< HEAD
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" weight="0.32795697" />
-=======
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49928468" visible="true" weight="0.32795697" />
->>>>>>> 543c08b325b1dee48a317b7f8aeb75496a05bd0f
-      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.36337626" side_tool="true" visible="true" weight="0.32258064" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4985694" weight="0.3252688" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.29435483" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50143063" side_tool="true" weight="0.3293011" />
+      <window_info anchor="bottom" id="Version Control" order="9" weight="0.3293011" />
       <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.3855508" weight="0.32123655" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -325,32 +267,139 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" weight="0.21173105" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.84263235" weight="0.32258064" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.49785408" weight="0.39919356" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4985694" weight="0.3266129" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32891566" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50143063" side_tool="true" visible="true" weight="0.3293011" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" sideWeight="0.3855508" weight="0.32123655" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.32988167" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout-to-restore>
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/tests/demotest.java</url>
+          <line>35</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/target/test-classes/environment/EnvironmentManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#612#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/environment/RunEnvironment.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#444#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/test-classes/tests/demotest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="3" selection-start-line="16" selection-start-column="3" selection-end-line="16" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="18" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+        <state relative-caret-position="147">
+          <caret line="10" selection-start-line="10" selection-end-line="22" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/environment/RunEnvironment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="16" />
-          <folding>
-            <element signature="e#176#177#0" expanded="true" />
-            <element signature="e#208#209#0" expanded="true" />
-            <element signature="e#261#262#0" expanded="true" />
-            <element signature="e#313#314#0" expanded="true" />
-          </folding>
+        <state>
+          <caret selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/environment/EnvironmentManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        <state>
+          <caret selection-end-line="17" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -359,91 +408,13 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/tests/demotest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-<<<<<<< HEAD
-          <caret line="62" column="91" selection-start-line="62" selection-start-column="91" selection-end-line="62" selection-end-column="91" />
-=======
-          <caret line="61" column="91" selection-start-line="61" selection-start-column="91" selection-end-line="61" selection-end-column="91" />
->>>>>>> 543c08b325b1dee48a317b7f8aeb75496a05bd0f
+        <state relative-caret-position="180">
+          <caret line="27" column="41" selection-start-line="27" selection-start-column="41" selection-end-line="27" selection-end-column="41" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>Junitwithselenium</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
 </project>

@@ -25,8 +25,8 @@ public class demotest {
         EnvironmentManager.initWebDriver();
         driver = RunEnvironment.getWebDriver();
         driver.manage().window().maximize();
-        driver.get("https://www.adidas.co.uk");
-        driver.findElement(By.xpath("//div[@class='gl-modal__dialog no-gutters col-l-12']//button[@type='button'] ")).click();
+        driver.get("https://www.adidas.de");
+        //driver.findElement(By.xpath("//div[@class='gl-modal__dialog no-gutters col-l-12']//button[@type='button'] ")).click();
         jse = (JavascriptExecutor)driver;
         hover = new Actions(driver);
     }
